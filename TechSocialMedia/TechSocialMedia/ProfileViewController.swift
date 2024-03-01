@@ -22,7 +22,10 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        cornerRadius()
+    }
+    
+    func cornerRadius() {
         bannerImageView.layer.cornerRadius = 10
         bannerImageView.layer.masksToBounds = true
         
@@ -52,7 +55,6 @@ class ProfileViewController: UIViewController {
         
         bioLabel.layer.cornerRadius = 10
         bioLabel.layer.masksToBounds = true
-
     }
 
 }
