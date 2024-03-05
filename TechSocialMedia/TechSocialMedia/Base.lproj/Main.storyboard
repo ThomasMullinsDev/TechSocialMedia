@@ -17,21 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snapseed" translatesAutoresizingMaskIntoConstraints="NO" id="id1-D3-wfz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Snapseed" translatesAutoresizingMaskIntoConstraints="NO" id="id1-D3-wfz" customClass="RoundedImage" customModule="TechSocialMedia" customModuleProvider="target">
                                 <rect key="frame" x="20" y="59" width="353" height="353"/>
                                 <color key="backgroundColor" red="0.20024887250000001" green="0.21047484550000001" blue="0.2290001783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="353" id="kbe-XC-8Gb"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0372" translatesAutoresizingMaskIntoConstraints="NO" id="CmJ-ND-A15">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0372" translatesAutoresizingMaskIntoConstraints="NO" id="CmJ-ND-A15" customClass="RoundedImage" customModule="TechSocialMedia" customModuleProvider="target">
                                 <rect key="frame" x="121.66666666666669" y="351" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="4f0-N3-uXU"/>
                                     <constraint firstAttribute="width" constant="150" id="vLY-Au-TdW"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grc-oZ-GXl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followers" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grc-oZ-GXl" customClass="RoundedLabel" customModule="TechSocialMedia" customModuleProvider="target">
                                 <rect key="frame" x="20.000000000000007" y="420" width="93.666666666666686" height="37.666666666666686"/>
                                 <color key="backgroundColor" red="0.20024887250000001" green="0.21047484550000001" blue="0.2290001783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -41,7 +41,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Following" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-0I-8kv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Following" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-0I-8kv" customClass="RoundedLabel" customModule="TechSocialMedia" customModuleProvider="target">
                                 <rect key="frame" x="279.66666666666669" y="420" width="93.333333333333314" height="37.666666666666686"/>
                                 <color key="backgroundColor" red="0.20024887250000001" green="0.21047484550000001" blue="0.2290001783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -51,7 +51,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oC3-tU-yyU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oC3-tU-yyU" customClass="RoundedLabel" customModule="TechSocialMedia" customModuleProvider="target">
                                 <rect key="frame" x="20.000000000000007" y="461.66666666666669" width="93.666666666666686" height="37.333333333333314"/>
                                 <color key="backgroundColor" red="0.20024887250000001" green="0.21047484550000001" blue="0.2290001783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -75,11 +75,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Pmo-X2-X1H">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="172"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FB555970-0C91-4022-A075-1908CC77FF7B" translatesAutoresizingMaskIntoConstraints="NO" id="wBL-em-CDb">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FB555970-0C91-4022-A075-1908CC77FF7B" translatesAutoresizingMaskIntoConstraints="NO" id="wBL-em-CDb" customClass="RoundedImage" customModule="TechSocialMedia" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="172"/>
                                                 <color key="backgroundColor" red="0.20024887250000001" green="0.21047484550000001" blue="0.2290001783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20170718_203130_Original" translatesAutoresizingMaskIntoConstraints="NO" id="X18-y1-brg">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="20170718_203130_Original" translatesAutoresizingMaskIntoConstraints="NO" id="X18-y1-brg" customClass="RoundedImage" customModule="TechSocialMedia" customModuleProvider="target">
                                                 <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="172"/>
                                                 <color key="backgroundColor" red="0.20024887250000001" green="0.21047484550000001" blue="0.2290001783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </imageView>
@@ -90,7 +90,7 @@
                                     <constraint firstAttribute="height" constant="172" id="lUV-x7-AE8"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbs-07-gZx">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1,000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbs-07-gZx" customClass="RoundedLabel" customModule="TechSocialMedia" customModuleProvider="target">
                                 <rect key="frame" x="279.66666666666669" y="461.66666666666669" width="93.333333333333314" height="37.333333333333314"/>
                                 <color key="backgroundColor" red="0.20024887250000001" green="0.21047484550000001" blue="0.2290001783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -100,7 +100,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thomas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHF-5a-7wA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thomas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHF-5a-7wA" customClass="RoundedLabel" customModule="TechSocialMedia" customModuleProvider="target">
                                 <rect key="frame" x="121.66666666666669" y="461.66666666666669" width="150" height="39.333333333333314"/>
                                 <color key="backgroundColor" white="0.09167729594" alpha="0.60078642384105974" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -110,7 +110,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Software Developer, Enrolled at Mtech" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdH-Gf-ORL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Software Developer, Enrolled at Mtech" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdH-Gf-ORL" customClass="RoundedLabel" customModule="TechSocialMedia" customModuleProvider="target">
                                 <rect key="frame" x="20" y="507" width="353" height="36"/>
                                 <color key="backgroundColor" red="0.20024887250000001" green="0.21047484550000001" blue="0.2290001783" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -353,10 +353,10 @@
         <image name="person.crop.circle" catalog="system" width="128" height="123"/>
         <image name="photo.fill" catalog="system" width="128" height="93"/>
         <systemColor name="secondaryLabelColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29803921570000003" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="viewFlipsideBackgroundColor">
             <color red="0.12156862745098039" green="0.12941176470588237" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
